@@ -1,0 +1,64 @@
+/* Global styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #ececcc;
+}
+
+.stApp {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stHeader {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.stSubheader {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.stText {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.stButton {
+    background-color: #b4c42b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stButton:hover {
+    background-color: #3e8e41;
+}
+
+.stFooter {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.stFooter a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.stFooter a:hover {
+    color: #23527c;
+}
